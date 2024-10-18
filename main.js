@@ -21,6 +21,18 @@ const hospitalname = document.getElementById('hospitalnametextbox').value;
 const hospitaladdress = document.getElementById('hospitaladresstextbox').value;
 const signupbutton = document.getElementById('signupbtn');
 signupbutton.addEventListener("click",function(event){
-    event.preventDefault()
-    alert(5)
+    const auth = getAuth();
+createUserWithEmailAndPassword(auth, email, password)
+  .then((userCredential) => {
+    // Signed up 
+    const user = userCredential.user;
+   alert("creating Account")
+    // ...
+  })
+  .catch((error) => {
+    const errorCode = error.code;
+    const errorMessage = error.message;
+   alert("errorMessage')
+    // ..
+  });
 })
