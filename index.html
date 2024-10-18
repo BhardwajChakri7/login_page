@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="slide navbar style.css">
     <link rel="stylesheet" href="main.css">
     <script type="module" src="main.js" defer></script>
+	<script type="module" src="login.js" defer></script>
 <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -13,11 +14,11 @@
 
 			<div class="signup">
 				<form>
-					<label for="chk" aria-hidden="true" id="signupbtn">Sign up</label>
-					<input type="text" name="txt" placeholder="Email" required="" id="emailtextbox">
-					<input type="email" name="email" placeholder="Password" required="" id="passwordtextbox">
+					<label for="chk" aria-hidden="true">Sign up</label>
+					<input type="email" name="txt" placeholder="Email" required="" id="emailtextbox">
+					<input type="password" name="email" placeholder="Password" required="" id="passwordtextbox">
                     <input type="text" name="broj" placeholder="Hospital Name" required="" id="hospitalnametextbox">
-					<input type="password" name="pswd" placeholder="Hospital Address" required="" id="hospitaladresstextbox">
+					<input type="text" name="pswd" placeholder="Hospital Address" required="" id="hospitaladresstextbox">
 					<button id="signupbtn">Sign up</button>
 				</form>
 			</div>
@@ -25,9 +26,9 @@
 			<div class="login">
 				<form>
 					<label for="chk" aria-hidden="true">Login</label>
-					<input type="email" name="email" placeholder="Email" required="">
-					<input type="password" name="pswd" placeholder="Password" required="">
-					<button>Login</button>
+					<input type="email" name="email" placeholder="Email" required="" id="signinemail">
+					<input type="password" name="pswd" placeholder="Password" required="" id="signinpass">
+					<button id="loginbtn">Login</button>
 				</form>
 			</div>
 	</div>
