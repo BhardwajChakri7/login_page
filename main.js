@@ -26,7 +26,7 @@ signupbutton.addEventListener("click", function (event) {
     .then((userCredential) => {
       // Signed up 
       const user = userCredential.user;
-      window.location.href="https://firebase.google.com/docs/auth/web/start"
+      window.location.href="index.html"
       // ...
     })
     .catch((error) => {
