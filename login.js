@@ -25,7 +25,7 @@ signinbutton.addEventListener('click', function(event) {
     .then((userCredential) => {
       // Signed in 
       const user = userCredential.user;
-      window.location.href = "https://firebase.google.com/docs/auth/web/start";
+      window.location.href = "https://bhardwajchakri7.github.io/Hackkare2.0Part2/";
       // ...
     })
     .catch((error) => {
