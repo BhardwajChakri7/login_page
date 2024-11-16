@@ -25,7 +25,7 @@ signinbutton.addEventListener('click', function(event) {
     .then((userCredential) => {
       // Signed in 
       const user = userCredential.user;
-      window.location.href = "https://bhardwajchakri7.github.io/Hackkare2.0Part2/";
+      window.location.href = "https://bhardwajchakri7.github.io/Course-Master/";
       // ...
     })
     .catch((error) => {
